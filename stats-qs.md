@@ -18,4 +18,19 @@ A car has a 0.9 probability of passing a store every 30 mins. What is the probab
 Conversely: A car has a 0.4 probabiliyt of passing a bench at a 15 min interval. What's the probability of a car passing within a 45 min interval?
 ```
 
+```
+Three friends in Seattle told you it's rainy. Each has a probability of 1/3 of lying. What's the probability that Seattle is rainy?
+```
 
+```
+What is the fundamentals of naive bayes? How do you set the threshold?
+```
+
+```
+Whats the difference between bayesian and frequentist view of stats?
+```
+
+```
+given n samples from a uniform distribution [0,d]
+how to estimate d?
+```

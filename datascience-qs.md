@@ -50,4 +50,31 @@ What's a difference between a decision tree and a boosted tree?
 What is TFIDF? What words are emphasized, and what words are ignored?
 ```
 
+```
+How to deal with extreme values in a dataset?
+```
 
+
+```
+How would you create a music recommendation algorithm? what data would need?
+```
+
+```
+How would you detect anomalous behavior on a user account?
+```
+
+```
+how do you impute missing data?
+```
+
+```
+Explain logistic regression
+```
+
+```
+What is the difference between K-means clustering, and k-nearest neighbors
+```
+
+```
+What is overfitting, and how can it be avoided?
+```
