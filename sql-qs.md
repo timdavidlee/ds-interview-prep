@@ -3,6 +3,8 @@
 These questions were developed using the basic schema from coderpad.io, all the questions are original, and developed for some tutoring sections I used to teach.
 
 
+- Please explain the difference between the different types of joins `LEFT`, `RIGHT`, `OUTER` , `INNER`, and `CROSS`.
+
 
 ## 1.1 Coderpad Schema
 
