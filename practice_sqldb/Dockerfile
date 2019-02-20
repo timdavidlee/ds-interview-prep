@@ -1,5 +1,4 @@
-FROM python:3.6-slim
-
-RUN pip install psycopg2
-RUN pip install pandas numpy
-RUN pip install requests
+FROM postgres:latest
+USER postgres
+COPY northwind.sql /docker-entrypoint-initdb.d/northwind.sql
+COPY mk_db.sh /docker-entrypoint-initdb.d/northwind.sql
