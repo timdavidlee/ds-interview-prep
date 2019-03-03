@@ -65,7 +65,6 @@ What t-test would be appropriate?
 A full second-order model contains which of the following?
 ```
 
-
 ```
 How many samples do we need? How many users should go into each bucket? Can we ensure that the experiment will have sufficient power?
 ```
