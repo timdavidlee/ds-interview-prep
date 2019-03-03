@@ -2,6 +2,8 @@ version: "3"
 services:
   test_db:
     image: northwind_postgres:latest
+    build:
+      context: ./
     container_name: mydb
     ports:
     - 5432:5432
