@@ -7,6 +7,10 @@ What is the bias variance trade off?
 ```
 
 ```
+What is logistic regression?
+```
+
+```
 What is SVM and how does it work?
 ```
 

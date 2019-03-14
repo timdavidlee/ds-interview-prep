@@ -67,7 +67,9 @@ Q: Write a merge sort
 ```
 
 ```
-Q: When can parallelism make your algorithms run faster?
+Q: Write a program that can looks an integer array that equal a certain value
 ```
 
-
+```
+Q: Given two sorted arrays, merge them into one array
+```
