@@ -6,8 +6,67 @@ This is a compilation of questions from both my master's program, stat trek, and
 
 ### Probability
 
+**Define a p-value**
+
 ```
-Define a p-value
+
+In statistical significance testing, the p-value is the probability of obtaining a test statistic at least as extreme as the one that was actually observed, assuming that the null hypothesis is true. If the p-value is less than 0.05 or 0.01, corresponding respectively to a 5% or 1% chance of rejecting the null hypothesis when it is true (Type I error).
+```
+
+**What is sampling? How many sampling methods?**
+
+```
+In statistical significance testing, the p-value is the probability of obtaining a test statistic at least as extreme as the one that was actually observed, assuming that the null hypothesis is true. If the p-value is less than 0.05 or 0.01, corresponding respectively to a 5% or 1% chance of rejecting the null hypothesis when it is true (Type I error).
+```
+
+**Whats the difference between bayesian and frequentist view of stats?**
+
+```
+Bayesians condition on the data actually observed and consider the probability distribution on the hypotheses;
+Frequentists condition on a hypothesis of choice and consider the probability distribution on the data, whether observed or not.
+```
+
+**What is the Central Limit Theorem?**
+
+```
+As the sample size increases, the sampling distribution of sample
+means approaches a normal distribution
+```
+
+**Are expected value and mean different?**
+
+```
+They are not different but the terms are used in different contexts. Mean is generally referred when talking about a probability distribution or sample population whereas expected value is generally referred in a random variable context.
+
+-- For Sampling Data
+Mean value is the only value that comes from the sampling data.
+Expected Value is the mean of all the means i.e. the value that is built from multiple samples. Expected value is the population mean.
+
+-- For Distributions
+Mean value and Expected value are same irrespective of the distribution, under the condition that the distribution is in the same population.
+```
+
+**What is the Normal Distribution?**
+
+```
+Data is usually distributed in different ways with a bias to the left or to the right or it can all be jumbled up. However, there are chances that data is distributed around a central value without any bias to the left or right and reaches normal distribution in the form of a bell shaped curve. The random variables are distributed in the form of an symmetrical bell shaped curve
+```
+
+**What does P-value signify about the statistical data?**
+
+```
+P-value is used to determine the significance of results after a hypothesis test in statistics. P-value helps the readers to draw conclusions and is always between 0 and 1.
+
+- P- Value > 0.05 denotes weak evidence against the null hypothesis which means the null hypothesis cannot be rejected.
+- P-value <= 0.05 denotes strong evidence against the null hypothesis which means the null hypothesis can be rejected.
+- P-value=0.05 is the marginal value indicating it is possible to go either way.
+
+```
+
+**How can you make data normal with a Box-cox transformation**
+
+```
+Answer:
 ```
 
 ```
@@ -26,9 +85,7 @@ Three friends in Seattle told you it's rainy. Each has a probability of 1/3 of l
 What is the fundamentals of naive bayes? How do you set the threshold?
 ```
 
-```
-Whats the difference between bayesian and frequentist view of stats?
-```
+
 
 ```
 given n samples from a uniform distribution [0,d]
@@ -62,3 +119,5 @@ Using the confidence interval that you constructed in the previous problem, woul
 ```
 For the scores on an achievement test given to a certain population of students, the expected value is 500 and the standard deviation is 100. Let X_bar be the mean of hte scores of a random sample of 35 students from the population. What does the central limit say the approximate distribution of X_bar is ? then compute the pro babilty that X_bar is between 460 and 540. (Hint: if Z=(X-u))
 ```
+
+
