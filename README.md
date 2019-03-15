@@ -23,7 +23,7 @@ This is a separate category of understanding how to separate population groups a
 
 This covers designing ML models, and understanding results. Also coveres training, validation, and testing sets. 
 
-### 6. Modeling Questions
+### 6. Modeling Questions(model-design.md)
 
 This covers product related questions. These are often asked at internet product companies. 
 
