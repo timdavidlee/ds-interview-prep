@@ -1,3 +1,3 @@
 
 
-$$ \alpha x = \frac{a}{b}
+$$ \alpha x = \frac{a}{b} $$
