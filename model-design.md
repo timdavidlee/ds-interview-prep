@@ -81,6 +81,8 @@ Support Vector Machines
 
 For non-linear situations, you can use a kernel trick to transfor the SVM into a shape that you want, but increasing the dimensionality (its a plane somewhere in tehre)
 
+---
+
 ## Types of Layers
 
 #### BatchNorm
@@ -113,3 +115,29 @@ Typically used for a downsampling operation. This reduces the number of paramete
 
 Dropout random creates "dead" neurons, avoiding overfitting. This also avoids learning any coincidental patterns or signals that aren't significant
 
+---
+
+#### What's the difference between non-negative matrix factorization and singular value decomposition?
+
+1. **Main Difference**: SVD factors contains both positive and negative entries while NMF factors are strictly positive.
+
+2. **Text Applications** NMF usually used in text applications, where we only want positive interactions. (There can't be negative counts). 
+
+3. SVD yields unique factors whereas NMF facotrs are non-unique.
+
+
+# NMF with Gradient Descent
+
+NMF is biconvex. **A-WH**. Fix W and update H. Fix H and update W, keep doing this until the error doesn't decrease anymore. This is alternating least squares. This can lead to non-negative values, but this can be adjusted by truncating all negative values to 0.
+
+This can be done with gradient descent:
+
+```
+1. W <- random(n, k)
+2. H <- random(k, m)
+3. Repeat
+    3.1 H <- H - e_h * grad_h
+    3.1 H <- W - e_w * grad_w
+
+Until convergence
+```
