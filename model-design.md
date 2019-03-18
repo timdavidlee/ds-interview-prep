@@ -2,6 +2,8 @@
 
 ## What are the different type of **activation** functions?
 
+[great post](https://towardsdatascience.com/activation-functions-neural-networks-1cbd9f8d91d6)
+
 - Linear
     - Pros: not a binary activation. Also if more than 1 neuron fires, we can take the max of that ?(sp)
     - Cons: constant gradient, which means that will always converge at the same speed irregardless of what X is. Also as a result, errors in predictions will not depend on differences in X
@@ -141,3 +143,8 @@ This can be done with gradient descent:
 
 Until convergence
 ```
+
+### Vanishing Gradient
+
+This is a backpropogation issue. Using tanh may introduce vanishing gradients for deep layer models. If there are too many layers the gradients get too small, and the model become stuck. This can force some architectures to use relu where the gradients don't become small.
+

@@ -57,6 +57,8 @@ x=2 | 1/2   1/2
 
 ### GDA vs. Logistic Regression
 
+[stanford paper](https://ai.stanford.edu/~ang/papers/nips01-discriminativegenerative.pdf)
+
 We just argued that if p(x|y) is multivariate gaussian (with shared eta), then p(y|x) necessarily follows a logistic function. The converse, however, is not true; i.e., p(y|x) being a logistic function does not imply p(x|y) is multivariate gaussian.
 
 This shows that GDA makes stronger modeling assumptions about the data than does logistic regression. It turns out that when these modeling assumptions are correct, then GDA will find better fits to the data, and is a better model. Specifically, when p(x|y) is indeed gaussian (with shared etc), then GDA is asymptotically efficient.
@@ -70,7 +72,6 @@ In contrast, by making significantly weaker assumptions, logistic regression is 
 #### Summarize:
 
 GDA:
-
 - GDA makes stronger modeling assumptions
 - is more data efficient (i.e., requires less training data to learn “well”) when the modeling assumptions are correct or at least approximately correct. 
 
