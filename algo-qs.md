@@ -73,3 +73,37 @@ Q: Write a program that can looks an integer array that equal a certain value
 ```
 Q: Given two sorted arrays, merge them into one array
 ```
+
+```
+Q: Boggle Question: how do you find all the permutations of boggle letters? 
+```
+
+```
+Q: 2nd part implement a dictionary that lets you look up the words quickly - trie. Pass the graph and trie node in recursive functions.
+```
+
+```
+Q: Given an infinite stream of data, how would you pull a random sample?
+```
+
+```
+Q: Write a program to draw a circle?
+- eight way symmetry
+- sqrt y for x + r
+- no sqrt -> Bressanhams error: 
+```
+
+```
+Q: pull a random sample with a weighted probability
+```
+
+
+```
+Q: conways life: big grid of cells that are on or off
+Can solution order number of living cells
+parallelize it
+```
+
+```
+
+```
